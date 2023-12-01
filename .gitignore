@@ -234,3 +234,8 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 .idea/
+
+
+# Project specific
+input/objective_2_crop_classification
+input/objective_2_crop_classification.zip
