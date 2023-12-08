@@ -65,7 +65,7 @@ metrics = {
     'test_loss': []
 }
 
-with open('../result/objective2/training_history.txt', 'r') as file:
+with open('../result/objective2_crop_classification/training_history.txt', 'r') as file:
     lines = file.readlines()
 
 coin = 0
@@ -124,7 +124,7 @@ def plot_metrics(metrics, title):
 
     plt.figure(figsize=(15, 5))
 
-    plt.subplot(1, 4, 1)
+    plt.subplot(2, 2, 1)
     plt.plot(epochs, df['validation_top1_ma'], label='Validation Top-1 Accuracy')
     plt.plot(epochs, df['test_top1_ma'], label='Test Top-1 Accuracy')
     plt.title('Top-1 Accuracy')
@@ -133,7 +133,7 @@ def plot_metrics(metrics, title):
     plt.legend()
     plt.ylim(0, 100)
 
-    plt.subplot(1, 4, 2)
+    plt.subplot(2, 2, 2)
     plt.plot(epochs, df['validation_top3_ma'], label='Validation Top-3 Accuracy')
     plt.plot(epochs, df['test_top3_ma'], label='Test Top-3 Accuracy')
     plt.title('Top-3 Accuracy')
@@ -142,7 +142,7 @@ def plot_metrics(metrics, title):
     plt.legend()
     plt.ylim(0, 100)
 
-    plt.subplot(1, 4, 3)
+    plt.subplot(2, 2, 3)
     plt.plot(epochs, df['validation_f1_ma'], label='Validation F1 Score')
     plt.plot(epochs, df['test_f1_ma'], label='Test F1 Score')
     plt.title('F1 Score')
@@ -151,7 +151,7 @@ def plot_metrics(metrics, title):
     plt.legend()
     plt.ylim(0, 1)
 
-    plt.subplot(1, 4, 4)
+    plt.subplot(2, 2, 4)
     plt.plot(epochs, df['validation_loss_ma'], label='Validation Loss')
     plt.plot(epochs, df['test_loss_ma'], label='Test Loss')
     plt.title('Loss')
