@@ -2,7 +2,7 @@
 ## Objective 1: Preprocessing
 ## Objective 2: Crop vs no crop
 - `src/DataPreprocessing.ipynb` is Jupyter Notebook to preprocess input data.
-- `input/sample_data` contains a sample to input images used to train UNet.
+- `input/objective_2_crop_vs_no_crop` contains a sample to input images used to train UNet.
 - `src/UNetTrain.ipynb` is to build the UNet model.
 ## Objective 3: Crop categorization
 - `Crop_classification.ipynb` is the Jupyter notebook to build the model. 
