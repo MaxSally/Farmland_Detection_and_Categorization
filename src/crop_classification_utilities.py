@@ -65,7 +65,7 @@ metrics = {
     'test_loss': []
 }
 
-with open('../result/objective2_crop_classification/training_history.txt', 'r') as file:
+with open('../result/objective3_crop_classification/training_history.txt', 'r') as file:
     lines = file.readlines()
 
 coin = 0
