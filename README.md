@@ -1,8 +1,9 @@
 # Farmland_Detection_and_Categorization
 ## Objective 1: Preprocessing
 ## Objective 2: Crop vs no crop
-
-
+- `src\DataPreprocessing.ipynb` is Jupyter Notebook to preprocess input data.
+- `input\sample_data` contains sample to input images which was used to train UNet.
+- `src\UNetTrain.ipynb` is to build UNet model.
 ## Objective 3: Crop categorization
 - `Crop_classification.ipynb` is the Jupyter notebook to build the model. 
 - `input/objective_2_crop_classification` is the dataset used for the model. Each image is a sample image of a crop area with the top 3 label in its name. Because the image encodes BrightnessTemp with normalized value of a region, the image, when viewed under typical image viewer, may appear strange. 
