@@ -24,7 +24,7 @@
 - `src/crop_classification_utilities.py`: contains utilities function to print graphs from training history.
 ## Objective 4: Growth length
 - Use `cropgrowth_predictor.ipynb` to train snd save the model.
-- Trained model saved as `growth_stage_classifier_cnn1.h5`.
+- Trained model saved as `growth_stage_predictor.h5`.
 - `cropgrowth_predictor-checkpoint.ipynb` can be used to observe how the current model was trained.
 - `corn_filter.py` under code was used to filter non-corn areas out of the dataset.
 - `Kc_filter.py` under code was used to filter out areas that do not match the appropriate corn growth stage per the Day of Year (DOY).
