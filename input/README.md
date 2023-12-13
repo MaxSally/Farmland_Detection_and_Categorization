@@ -7,4 +7,6 @@ If the classified image had same values in 9x9 window, then that pixel is popula
 1. Classified crops 2013 - 2022.
 2. NDVI images for each year resampled at matching lower resolution.
 3. Surface appearent temprature matching image size of classified images.
+4. Utilities: Resample==> It contains post processing tasks like resampling TIFF's to lower resolution based on all pixels having same value, else the output is zero.
+5. Utilities: ScatterPlotVsClasses ==> To generate the Land Cover classes Vs NDVI pixel sacatter plots (before and after filterning).
 
