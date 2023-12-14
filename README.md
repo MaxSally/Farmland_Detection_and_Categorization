@@ -26,7 +26,7 @@
 - Use `src/cropgrowth_predictor.ipynb` to train snd save the model.
 - Trained model can be found at `result/objective4_crop_growth_predictor/growth_stage_predictor.h5`.
 - `src/cropgrowth_predictor-checkpoint.ipynb` can be used to observe how the current model was trained.
-- `src/corn_filter.py` under code was used to filter non-corn areas out of the dataset (This dataset was used in the `Kc_filter.py` script).
+- `src/corn_filter.py` was used to filter non-corn areas out of the dataset (This dataset was used in the `Kc_filter.py` script).
 - Results for the above can be found in `result/objective4_crop_growth_predictor/`
-- `src/Kc_filter.py` under code was used to filter out areas that do not match the appropriate corn growth stage obtained using Kc values and the Day of Year (DOY) the image was captured on. 
+- `src/Kc_filter.py` was used to filter out areas that do not match the appropriate corn growth stage obtained using Kc values and the Day of Year (DOY) the image was captured on. 
 - Results for the above can be found in `input/objective4_crop_growth_predictor/` (This dataset was used to train the Model).
